@@ -1,20 +1,20 @@
 
-using System.Collections;
+using System.Collections; // Basic unity import stuff
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DroidMove : MonoBehaviour
+public class DroidMove : MonoBehaviour // Not importing from anything
 {
 
-    public WheelCollider leftTrackA;
+    public WheelCollider leftTrackA; // public variable of type 'WheelCollider' with the name 'LeftTrackA'
     //public WheelCollider leftTrackB;
     public WheelCollider rightTrackA;
     //public WheelCollider rightTrackB;
 
-    private float rawLeft;
+    private float rawLeft; // Private variable of type float
     private float rawRight;
 
-    public float MaxValue = 500;
+    public float MaxValue = 500; // coordinates?
     public float MinValue = -500;
 
     private float RawLeft;
